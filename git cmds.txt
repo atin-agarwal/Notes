@@ -25,3 +25,4 @@ git remote add origin https://github.com/atin-agarwal/reactjs-training.git
 git push -u origin master
 
 $ git rm --cached -r <<Folername>>
+
