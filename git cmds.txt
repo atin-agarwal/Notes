@@ -1,0 +1,27 @@
+Steps :
+1. initialize -> git init
+2. clone -> git remote add origin https://github.com/atin-agarwal/reactjs-training.git
+3. add -> git add . (current folder)
+4. remove (if any) -> git rm --cached -r <<FOLDERNAME>>
+5. commit -> git commit -m "first commit"
+6. pull latest -> git pull origin master
+7. merge -> git merge master<<BRANCHNAME>>
+8. push -> git push origin master
+
+
+
+…or create a new repository on the command line
+
+echo "# reactjs-training" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/atin-agarwal/reactjs-training.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/atin-agarwal/reactjs-training.git
+git push -u origin master
+
+$ git rm --cached -r <<Folername>>
